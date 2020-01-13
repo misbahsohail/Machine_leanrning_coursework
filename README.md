@@ -9,10 +9,13 @@ Machine learning coursework part 2
 5. If the code does not run, there might be some issue in the local machine
 
 # Description
+The repository contains 7 other files
+Requirement.txt contain the list of packages required to run the code
+imdb_train_pos and imdb_train_neg - two files containing positive and negative reviews respectively for training purpose
+imdb_dev_pos and imdb_dev_neg - two files containing positive and negative reviews respectively for developement purpose
+imdb_test_pos and imdb_test_neg - two files containing positive and negative reviews respectively for testing purpose
+
 This code takes six file inputs.  
-1. imdb_train_pos and imdb_train_neg - two files containing positive and negative reviews respectively for training purpose
-2. imdb_dev_pos and imdb_dev_neg - two files containing positive and negative reviews respectively for developement purpose
-3. imdb_test_pos and imdb_test_neg - two files containing positive and negative reviews respectively for testing purpose
 Two files of same purpose files are appended into 3 single datasets
 All reviews in each dataset are cleansed, lemmatized and tokenized
 They are coverted into vectors by defining these tokens into four different features

@@ -4,21 +4,17 @@ Machine learning coursework part 2
 # How to run
 1. Clone this repository
 2. Go to directory `cd Machine_learning_coursework`
-3. Download the required packages `$ pip install -r requirements.txt`
+3. Install the required depedencies `$ pip install -r requirements.txt`
 4. Run the code `python Part2.py`
-5. If the code does not run, there might be some issue in the local machine
+
 
 # Description
-The repository contains 7 other files
-Requirement.txt contain the list of packages required to run the code
-imdb_train_pos and imdb_train_neg - two files containing positive and negative reviews respectively for training purpose
-imdb_dev_pos and imdb_dev_neg - two files containing positive and negative reviews respectively for developement purpose
-imdb_test_pos and imdb_test_neg - two files containing positive and negative reviews respectively for testing purpose
-
-This code takes six file inputs.  
-Two files of same purpose files are appended into 3 single datasets
-All reviews in each dataset are cleansed, lemmatized and tokenized
-They are coverted into vectors by defining these tokens into four different features
-A Naive bayes classifier is trained using vectorized training sets, further improved using vectorized developement sets and tested upon the vectorized test set
-Chi-square reduction is used to further reduce the redundant features to further imporve the accuracy and to avoid over fitting
+The repository contains 6 text files and a file (`requirements.txt`) enlisting dependencies.
+2 files containg positive and negative reviews are used for training and develepment purposes.
+This code takes six input files.  
+two files each appended into 3 datasets for the purposes of training development and testing.
+Reviews in each dataset are cleansed, lemmatized and tokenized.
+They are converted into vectors by defining these tokens into four different features.
+A Naive bayes classifier is trained using training set, which is tuned using developement set and tested upon the test set.
+Chi-square reduction is used to further reduce the redundant features, imporve the accuracy and avoid over fitting
 

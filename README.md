@@ -3,9 +3,10 @@ Machine learning coursework part 2
 
 # How to run
 1. Clone this repository
-2. Go to directory `cd Machine_learning_coursework`
-3. Install the required depedencies `$ pip install -r requirements.txt`
-4. Run the code `python Part2.py`
+2. Open the terminal.
+3. Go to directory `cd Machine_learning_coursework`
+4. Install the required depedencies `$ pip install -r requirements.txt`
+5. Run the code `python Part2.py`
 
 
 # Description

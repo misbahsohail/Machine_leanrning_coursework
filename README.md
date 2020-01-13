@@ -16,5 +16,5 @@ two files each appended into 3 datasets for the purposes of training development
 Reviews in each dataset are cleansed, lemmatized and tokenized.
 They are converted into vectors by defining these tokens into four different features.
 A Naive bayes classifier is trained using training set, which is tuned using developement set and tested upon the test set.
-Chi-square reduction is used to further reduce the redundant features, imporve the accuracy and avoid over fitting
+Chi-square reduction is used to further reduce the redundant features, imporve the accuracy and avoid over fitting.
 

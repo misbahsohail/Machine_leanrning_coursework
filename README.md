@@ -10,9 +10,9 @@ Machine learning coursework part 2
 
 # Description
 The repository contains 6 text files and a file (`requirements.txt`) enlisting dependencies.
-2 files containg positive and negative reviews are used for training and develepment purposes.
+Two files containing positive and negative reviews are used for training and develepment purposes.
 This code takes six input files.  
-two files each appended into 3 datasets for the purposes of training development and testing.
+Two files each appended into 3 datasets for the purposes of training, development and testing.
 Reviews in each dataset are cleansed, lemmatized and tokenized.
 They are converted into vectors by defining these tokens into four different features.
 A Naive bayes classifier is trained using training set, which is tuned using developement set and tested upon the test set.
